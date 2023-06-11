@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<h1 align='center'>IPL TEAM REGISTRATION FORM</h1><br>
+<form action="Register" method='post'>
+<select class="custom-select custom-select-lg mb-3" name="team">
+  <option selected><b>Select The Team</b></option>
+  <option value="1">MI</option>
+  <option value="2">CSK</option>
+  <option value="3">GT</option>
+</select>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="NAME">NAME</label>
+      <input type="text" class="form-control" name="name" id="name">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Date Of Birth</label>
+      <input type="date" class="form-control" name="dob" id="dob">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="add">Address</label>
+    <input type="text" class="form-control" id="add" name="add">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="avg">Batting Average</label>
+      <input type="text" class="form-control" name="avg" id="avg">
+    </div>
+    <div class="form-group">
+    <label for="wicket">Wickets Taken</label>
+    <input type="text" class="form-control" id="wicket" name="wicket">
+  </div></div>
+  <button type="submit" class="btn btn-primary">Register</button>
+   <button type="reset" class="btn btn-primary">Cancel</button>
+</form>
+
+</html>
